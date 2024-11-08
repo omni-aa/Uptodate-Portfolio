@@ -30,8 +30,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              I am passionate about developing secure and innovative web applications and platforms i am passionate
-              about building secure and innovative web applications, leveraging frameworks like. &nbsp;
+               i am passionate about building secure and innovative web applications, leveraging frameworks like. &nbsp;
               <i>
                 <b className="purple">React and Next.js for the front end</b>  focus on creating robust and scalable back-end systems using
                 <b className="purple"> MySQL, MongoDB, or CockroachDB</b> for data storage, while utilizing
