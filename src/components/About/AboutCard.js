@@ -9,7 +9,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple">Aidan </span>I am an enthusiastic and driven individual who finds joy in exploring a variety of interests outside of my professional work.
+            I am an enthusiastic and driven individual who finds joy in exploring a variety of interests outside of my professional work.
             I have a passion for fishing and the great outdoors, which inspires a love for travel and discovering new places.
             I also appreciate the culinary world, whether it's trying new foods or cooking my own creations. In my downtime,
             I enjoy gaming and engaging in activities that bring balance and peace to my life.
