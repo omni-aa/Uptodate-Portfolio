@@ -5,7 +5,6 @@ import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import asiccProject from "../../Assets/asichtml.png"
-import solanaProject from "../../Assets/solanaproject.png"
 import customadminpannel from "../../Assets/azcorepannel.png"
 import gameWebsite from "../../Assets/pswebsitelichking.png"
 import gameLauncher from "../../Assets/gameLauncher.png"
@@ -17,6 +16,10 @@ import WoWAPImage from "../../Assets/discord_bot2.jpg"
 import RageEventsImage from "../../Assets/discord_bot3.jpg"
 import FirstportFolioImage from "../../Assets/image.png"
 import WoWDocsImage from "../../Assets/WOWIMAGE.jpg"
+import blogImage from "../../Assets/blog.png"
+import Carnagestudios from "../../Assets/carnagestudos.png"
+import NHFImage from "../../Assets/nhf.png"
+
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -50,15 +53,23 @@ function Projects() {
               demoLink="https://asicc.netlify.app/"
             />
           </Col>
-
+          <Col>
+            <ProjectCard
+            imgPath={NHFImage}
+            isBlog={false}
+            title="No Hard Feelings"
+            description="Gaming community website Built with react"
+            ghLink="https://github.com/AidanAli/nohardfeelings"
+            demoLink="https://nohardfeelings.vercel.app/"/>
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={solanaProject}
-              isBlog={false}
-              title="Solana Faucet"
-              description="Solana Faucet Website"
-              ghLink="https://github.com/Moonsight91/Solana-Faucet"
-              demoLink="https://asiccsolfaucet.vercel.app/"              
+                imgPath={blogImage}
+                isBlog={true}
+                title="Nextjs Blog/W Sanity CMS"
+                description="Blog website build with nextjs an sanity cms to manage blog content"
+                ghLink="https://github.com/AidanAli/blog"
+                demoLink="https://blog-rho-nine-45.vercel.app/"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -70,6 +81,16 @@ function Projects() {
               ghLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
               demoLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"              
             />
+          </Col>
+          <Col>
+            <ProjectCard
+            imgPath={Carnagestudios}
+            isBlog={false}
+            title="Carnage Studios Website"
+            description="Built with Nextjs, a website dedicated to showing my published private server projects.
+            World of warcraft, Tera. having a easy sign up system and a gamelist system to browse our list of games"
+            ghLink="https://github.com/AidanAli/wotlktestwebsite"
+            demoLink="https://carnagestudios.vercel.app/"/>
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
@@ -99,16 +120,6 @@ function Projects() {
               description="First Game Launcher Built for my Custom WoW Client"
               ghLink="https://github.com/Moonsight91/GameLauncher"
               demoLink="https://drive.google.com/file/d/1RCyGop79JAaYMpRwDnVp70QbxYMVFg4b/view?usp=sharing"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gameWebsite}
-              isBlog={false}
-              title="WoW Custom Website"
-              description="Custom Website Built by me using Nextjs to Register users with even more features coming"
-              ghLink="https://github.com/Moonsight91/lichkingprojectprivateserver"
-              demoLink="https://lichkingprojectprivateserver.vercel.app/"              
             />
           </Col>
           <Col md={4} className="project-card">
