@@ -167,7 +167,7 @@ function Projects() {
                 isBlog={false}
                 title="Custom WoW Server API"
                 description="In development custom WoW Server API using Node.js"
-                ghLink="https://github.com/AidanAli/WebApi"
+                ghLink="https://github.com/WoTLKAcoreDevelopment/BackendWebService "
             />
           </Col>
           <Col md={4} className="project-card">
@@ -177,7 +177,7 @@ function Projects() {
                 title="CustomWoW Discord Bot"
                 description="Built with the server in mind a discord bot that is integrated into the game using the
                 in house built API"
-                ghLink="https://github.com/AidanAli/DrenorProjectBot"
+                ghLink="https://github.com/AidanAli/Echoes-of-Azeroth-Bot"
             />
           </Col>
           <Col md={4} className="project-card">
