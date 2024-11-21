@@ -65,7 +65,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
                 imgPath={blogImage}
-                isBlog={true}
+                isBlog={false}
                 title="Nextjs Blog/W Sanity CMS"
                 description="Blog website build with nextjs an sanity cms to manage blog content"
                 ghLink="https://github.com/AidanAli/blog"
