@@ -3,22 +3,24 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import asiccProject from "../../Assets/asichtml.png"
 import customadminpannel from "../../Assets/azcorepannel.png"
-import gameWebsite from "../../Assets/pswebsitelichking.png"
 import gameLauncher from "../../Assets/gameLauncher.png"
 import discordPy from "../../Assets/discordpy.png"
 import firstEcom from "../../Assets/firstecomm.png"
 import secondEcomm from "../../Assets/secondecom.png"
 import WoWBotrImage from "../../Assets/discord_bot1.jpg"
 import WoWAPImage from "../../Assets/discord_bot2.jpg"
-import RageEventsImage from "../../Assets/discord_bot3.jpg"
 import FirstportFolioImage from "../../Assets/image.png"
 import WoWDocsImage from "../../Assets/WOWIMAGE.jpg"
 import blogImage from "../../Assets/blog.png"
 import Carnagestudios from "../../Assets/carnagestudos.png"
 import NHFImage from "../../Assets/nhf.png"
+import projectAurora from  "../../Assets/projectaurora.png"
+import omniStudio from "../../Assets/omnistudio.png"
+import reactAuthProject from "../../Assets/reactauth.png"
+import ArcheRageV3 from "../../Assets/archeragev3.png"
+
 
 function Projects() {
   return (
@@ -34,12 +36,34 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={projectAurora}
               isBlog={false}
-              title="First Html Project"
-              description="The Beginning of my Programming Adventures"
-              ghLink="https://github.com/Moonsight91/First-HTML-Portolio"
-              demoLink="https://moonslght.netlify.app/"
+              title="Project Aurora"
+              description="Un|Official Wiki / Player Support Website for ArcheRage"
+              ghLink="https://github.com/omni-aa/ProjectAuroraFrontend"
+              demoLink="https://aurora-aa.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={omniStudio}
+                isBlog={false}
+                title="Omni Game Studio"
+                description="Using the Project Aurora as a base i've planned to develop this as my private game studio website
+                with  user auth"
+                ghLink="https://github.com/omni-aa/ProjectAuroraFrontend"
+                demoLink="https://aurora-aa.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={reactAuthProject}
+                isBlog={false}
+                title="React Authentication"
+                description="Authentication solution built in react with Backend API using Express. and MailTrap"
+                ghLink="https://github.com/omni-aa/AuthenticationProject/tree/master"
+                demoLink="https://authentication-project-bgum.vercel.app/login"
             />
           </Col>
 
@@ -74,14 +98,25 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="World of Warcraft Server"
-              description="Custom Azerothcore Private Sever for World of Warcraft Wrath of the Lich King"
-              ghLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
-              demoLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"              
+                imgPath={firstEcom}
+                isBlog={false}
+                title="Ecommerce Web Site 1"
+                description="Learning How to use React, Tailwindcss, and Sanity"
+                ghLink="https://github.com/Moonsight91/Tech-Ecommerce-Store"
+                demoLink="https://tech-ecommerce-store.vercel.app/"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={secondEcomm}
+                isBlog={false}
+                title="Ecommerce Web Site 2"
+                description="Extended Learning On Learning React and other Technologies"
+                ghLink="https://github.com/Moonsight91/ecommerce-store"
+                demoLink="https://ecommerce-store-moonsight.vercel.app/"
+            />
+          </Col>
+
           <Col>
             <ProjectCard
             imgPath={Carnagestudios}
@@ -94,71 +129,32 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={WoWDocsImage}
-                isBlog={false}
-                title="WoWPS Developer Docs"
-                description="Self made documentation for my small team of developers"
-                ghLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
-                demoLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={customadminpannel}
-              isBlog={false}
-              title="Azerothcore Admin Tool"
-              description="In-House Built Tool to moderate and manage the worldserver.exe authserver.exe and world state"
-              ghLink="https://github.com/Moonsight91/AzerothcoreAdminApp"
-              demoLink="https://github.com/Moonsight91/AzerothcoreAdminApp"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gameLauncher}
-              isBlog={false}
-              title="Game Launcher"
-              description="First Game Launcher Built for my Custom WoW Client"
-              ghLink="https://github.com/Moonsight91/GameLauncher"
-              demoLink="https://drive.google.com/file/d/1RCyGop79JAaYMpRwDnVp70QbxYMVFg4b/view?usp=sharing"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discordPy}
-              isBlog={false}
-              title="Discord Bot Project"
-              description="Feature Rich Discord Bot for my Group of Friends"
-              ghLink="https://github.com/Moonsight91/SynopsisBotFlawles"
-              demoLink="https://github.com/Moonsight91/SynopsisBotFlawles"              
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={firstEcom}
-              isBlog={false}
-              title="Ecommerce Web Site 1"
-              description="Learning How to use React, Tailwindcss, and Sanity"
-              ghLink="https://github.com/Moonsight91/Tech-Ecommerce-Store"demoLink="https://tech-ecommerce-store.vercel.app/"             
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={secondEcomm}
-              isBlog={false}
-              title="Ecommerce Web Site 2"
-              description="Extended Learning On Learning React and other Technologies"
-              ghLink="https://github.com/Moonsight91/ecommerce-store"
-              demoLink="https://ecommerce-store-moonsight.vercel.app/"               
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
                 imgPath={FirstportFolioImage}
                 isBlog={false}
                 title="First-Porfolio Website"
                 description="First ever portfolio website i've made "
                 ghLink="https://github.com/AidanAli/First-Portfolio"
                 demoLink="https://asicc.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={ArcheRageV3}
+                isBlog={false}
+                title="RageEventsV3"
+                description="RageEvent Discord bot refactored with core system changes to events"
+                ghLink="https://github.com/AidanAli/RageEvents"
+                demoLink="https://camo.githubusercontent.com/c88eb031f7da75b756ef9750ab33d5f7bcfd0887884709c05e962702dd66bcf0/68747470733a2f2f692e6962622e636f2f376750706b62332f696d6167652e706e67"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={discordPy}
+                isBlog={false}
+                title="Discord Bot Project"
+                description="Feature Rich Discord Bot for my Group of Friends"
+                ghLink="https://github.com/Moonsight91/SynopsisBotFlawles"
+                demoLink="https://github.com/Moonsight91/SynopsisBotFlawles"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -182,12 +178,42 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={RageEventsImage}
+                imgPath={WoWDocsImage}
                 isBlog={false}
-                title="RageEvents"
-                description="Self built discord bot for ArcheRage an MMORPG to keep track of ingame events and various
-                community management functions"
-                ghLink="https://github.com/AidanAli/RageEvents"
+                title="WoWPS Developer Docs"
+                description="Self made documentation for my small team of developers"
+                ghLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
+                demoLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+                imgPath={editor}
+                isBlog={false}
+                title="World of Warcraft Server"
+                description="Custom Azerothcore Private Sever for World of Warcraft Wrath of the Lich King"
+                ghLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
+                demoLink="https://github.com/WoTLKAcoreDevelopment/dev-intro"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={customadminpannel}
+              isBlog={false}
+              title="Azerothcore Admin Tool"
+              description="In-House Built Tool to moderate and manage the worldserver.exe authserver.exe and world state"
+              ghLink="https://github.com/Moonsight91/AzerothcoreAdminApp"
+              demoLink="https://github.com/Moonsight91/AzerothcoreAdminApp"              
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gameLauncher}
+              isBlog={false}
+              title="Game Launcher"
+              description="First Game Launcher Built for my Custom WoW Client"
+              ghLink="https://github.com/Moonsight91/GameLauncher"
+              demoLink="https://drive.google.com/file/d/1RCyGop79JAaYMpRwDnVp70QbxYMVFg4b/view?usp=sharing"              
             />
           </Col>
         </Row>
