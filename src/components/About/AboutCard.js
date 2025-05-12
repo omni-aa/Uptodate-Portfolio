@@ -9,11 +9,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            I am an enthusiastic and driven individual who finds joy in exploring a variety of interests outside of my professional work.
-            I have a passion for fishing and the great outdoors, which inspires a love for travel and discovering new places.
-            I also appreciate the culinary world, whether it's trying new foods or cooking my own creations. In my downtime,
-            I enjoy gaming and engaging in activities that bring balance and peace to my life.
-            Apart from coding, here are some characteristics about me
+            I am a passionate and motivated individual who thrives on exploring diverse interests beyond my professional pursuits.
+            My love for the outdoors fuels a deep appreciation for fishing, travel,
+            and discovering new places. I also have a strong interest in the culinary arts,
+            whether experimenting with recipes in the kitchen or exploring new cuisines.
+            In my leisure time, I enjoy gaming and engaging in activities that promote
+            balance and well-being. These personal interests not only enrich my life but also inspire creativity and focus in my work.
           </p>
           <ul>
             <li className="about-activity">
