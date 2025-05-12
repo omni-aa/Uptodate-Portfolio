@@ -51,8 +51,8 @@ function Projects() {
                 title="Omni Game Studio"
                 description="Using the Project Aurora as a base i've planned to develop this as my private game studio website
                 with  user auth"
-                ghLink="https://github.com/omni-aa/ProjectAuroraFrontend"
-                demoLink="https://aurora-aa.vercel.app/"
+                ghLink="https://github.com/omni-aa/Omni-Studios-Frontend"
+                demoLink="https://omni-studios-frontend-development.vercel.app/"
             />
           </Col>
 
