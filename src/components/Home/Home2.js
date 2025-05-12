@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 
@@ -25,7 +24,7 @@ function Home2() {
               <br />
               <br />I am proficient in a range of programming languages and technologies, including
               <i>
-                <b className="purple"> HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, Python, and MySQL</b>
+                <b className="purple"> HTML, CSS,Tailwind CSS, JavaScript, TypeScript, React, Next.js, Node.js, Python, and MySQL</b>
               </i>
               <br />
               <br />
