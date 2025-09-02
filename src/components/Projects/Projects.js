@@ -16,10 +16,11 @@ import WoWDocsImage from "../../Assets/WOWIMAGE.jpg"
 import blogImage from "../../Assets/blog.png"
 import Carnagestudios from "../../Assets/carnagestudos.png"
 import NHFImage from "../../Assets/nhf.png"
-import projectAurora from  "../../Assets/projectaurora.png"
-import omniStudio from "../../Assets/omnistudio.png"
+import projectAurora from  "../../Assets/ProjectAurora.png"
+import NovusStudios from "../../Assets/NovusStudios1.png"
 import reactAuthProject from "../../Assets/reactauth.png"
 import ArcheRageV3 from "../../Assets/archeragev3.png"
+import ProximusChat from "../../Assets/proximuschat.png"
 
 
 function Projects() {
@@ -34,6 +35,26 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={ProximusChat}
+                    isBlog={false}
+                    title="Proximus Chat"
+                    description="Messaging App build in react with Simple user authentication"
+                    ghLink="https://github.com/omni-aa/ProximusChat"
+
+                />
+            </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={ProximusChat}
+                    isBlog={false}
+                    title="Proximus Chat Backend Server"
+                    description="Backend server built for Proximus chat for user authentication message persistence and security"
+                    ghLink="https://github.com/omni-aa/ProximusChat-Backend"
+
+                />
+            </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={projectAurora}
@@ -46,15 +67,23 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-                imgPath={omniStudio}
+                imgPath={NovusStudios}
                 isBlog={false}
-                title="Omni Game Studio"
-                description="Using the Project Aurora as a base i've planned to develop this as my private game studio website
-                with  user auth"
+                title="Novus Game Studios"
+                description="Full Stack Project from and backend with User Authentication with MongoDB"
                 ghLink="https://github.com/omni-aa/Omni-Studios-Frontend"
                 demoLink="https://omni-studios-frontend-development.vercel.app/"
             />
           </Col>
+            <Col md={4} className="project-card">
+                <ProjectCard
+                    imgPath={NovusStudios}
+                    isBlog={false}
+                    title="Novus Game Studio Backend"
+                    description="Scalable Backend Server for the Novus Project"
+                    ghLink="https://github.com/omni-aa/Omni-Studios-Backend"
+                />
+            </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
